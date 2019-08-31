@@ -9,5 +9,9 @@ new
 end
 
 def reduce(array,starting_point=0)
-  
+i=0
+while i<array.length do
+   i+=1
+   if starting_point==0 
+end
 end
