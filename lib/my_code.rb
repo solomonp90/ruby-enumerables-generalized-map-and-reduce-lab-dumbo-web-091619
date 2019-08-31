@@ -18,7 +18,10 @@ else
   sum = array[0]
   i=1
 end
- while 
+
+ while i < array.length
+   yield(array)
+
 end
 # if starting_point==nil||starting_point==0
 #   false
