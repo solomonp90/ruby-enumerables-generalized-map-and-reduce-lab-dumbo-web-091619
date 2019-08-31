@@ -15,8 +15,10 @@ if starting_point
   num = starting_point
   i=0
 else
- num = array[0] 
+ num = array[0]
+i=1
 end
+
 end
 # if starting_point==nil||starting_point==0
 #   false
