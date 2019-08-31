@@ -16,7 +16,8 @@ while i<array.length do
   yield(array[i])
   i+=1
 end
-if starting_point==
+if starting_point==nil
+  false
 end
 
 
