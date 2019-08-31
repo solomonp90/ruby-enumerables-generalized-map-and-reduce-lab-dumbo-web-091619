@@ -10,7 +10,7 @@ end
 
 
 
- def reduce# (array)
+ def reduce(array)
 #  i=0
 #while i<array.length do
 #   yield(array[i])
