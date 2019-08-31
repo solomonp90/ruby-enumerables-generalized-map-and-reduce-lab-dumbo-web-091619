@@ -8,10 +8,24 @@ end
 new
 end
 
+
+
 def reduce(array,starting_point=0)
 i=0
 while i<array.length do
-   i+=1
-   if starting_point[i]==nil || array[i==]  
+  
 end
+end
+
+def i_hear_a_sick_sound(passengers_sounds)
+  i = 0 # set up a i for the enumeration of the passengers collection
+  while i < passengers_sounds.length do # a loop for each passenger
+    # Stop enumerating and return true if any passenger is
+    # coughing or sneezing
+    if (passengers_sounds[i] == "coughing" || passengers_sounds[i] == "sneezing")
+      return true
+    end
+    i += 1
+  end
+  return false
 end
