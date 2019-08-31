@@ -12,8 +12,11 @@ end
 
  def reduce(array,starting_point=nil)
 if starting_point
-  num1 = starting_point
-  i=0 
+  num = starting_point
+  i=0
+else
+ num = array[0]
+end
 end
 # if starting_point==nil||starting_point==0
 #   false
