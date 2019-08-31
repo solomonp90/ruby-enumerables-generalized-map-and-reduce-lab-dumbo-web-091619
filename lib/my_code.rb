@@ -12,6 +12,6 @@ def reduce(array,starting_point=0)
 i=0
 while i<array.length do
    i+=1
-   if starting_point[i]==0  
+   if starting_point[i]==nil || array[i==]  
 end
 end
