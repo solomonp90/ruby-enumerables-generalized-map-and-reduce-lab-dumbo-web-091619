@@ -20,8 +20,8 @@ else
 end
 
  while i < array.length
-   yield(array)
-
+   yield(array[i],sum)
+ 
 end
 # if starting_point==nil||starting_point==0
 #   false
