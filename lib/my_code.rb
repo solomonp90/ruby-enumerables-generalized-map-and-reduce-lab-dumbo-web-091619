@@ -19,7 +19,7 @@ end
 if starting_point==nil
   false
 end
-
+end
 
 # def i_hear_a_sick_sound(passengers_sounds)
 #   i = 0 # set up a i for the enumeration of the passengers collection
