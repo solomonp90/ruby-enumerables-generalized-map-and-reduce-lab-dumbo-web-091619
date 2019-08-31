@@ -17,11 +17,11 @@ while i<array.length do
   i+=1
 end
 if starting_point==nil||starting_point==0
-  true
+  false
 end
 i+=1
 end
-false
+true
 end
 
 # def i_hear_a_sick_sound(passengers_sounds)
