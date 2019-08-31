@@ -12,12 +12,8 @@ end
 
  def reduce(array,starting_point=nil)
 if starting_point
-  sp=starting_point
-  i=0
-while i<sp do
-   yield(array[i])
-  i+=1
-end
+  num1 = starting_point
+  i=0 
 end
 # if starting_point==nil||starting_point==0
 #   false
