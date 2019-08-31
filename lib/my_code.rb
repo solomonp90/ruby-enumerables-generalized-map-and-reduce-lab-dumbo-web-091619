@@ -18,6 +18,7 @@ while i<sp do
    yield(array[i])
   i+=1
 end
+end
 # if starting_point==nil||starting_point==0
 #   false
 # end
