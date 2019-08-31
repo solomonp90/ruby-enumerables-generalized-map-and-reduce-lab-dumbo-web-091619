@@ -20,7 +20,7 @@ else
 end
 
  while i < array.length
-  sum = yield(array[i],sum)
+  sum = yield(sum,array[i])
  i += 1
 end
 sum
