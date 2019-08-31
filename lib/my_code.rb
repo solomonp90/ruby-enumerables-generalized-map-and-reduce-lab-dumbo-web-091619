@@ -16,9 +16,12 @@ while i<array.length do
   yield(array[i])
   i+=1
 end
-if starting_point==nil
-  false
+if starting_point==nil||starting_point==0
+  true
 end
+i+=1
+end
+false
 end
 
 # def i_hear_a_sick_sound(passengers_sounds)
