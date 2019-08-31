@@ -7,3 +7,7 @@ i+=1
 end
 new
 end
+
+def reduce(array,startingpoint=0)
+  
+end
