@@ -10,19 +10,19 @@ end
 
 
 
-def reduce(array,starting_point=0)
-i=0
-while i<array.length do
-  yield(array[i])
-  i+=1
-end
-if starting_point==nil||starting_point==0
-  false
-end
-i+=1
-end
-true
-end
+# def reduce(array,starting_point=0)
+# i=0
+# while i<array.length do
+#   yield(array[i])
+#   i+=1
+# end
+# if starting_point==nil||starting_point==0
+#   false
+# end
+# i+=1
+# end
+# true
+# end
 
 # def i_hear_a_sick_sound(passengers_sounds)
 #   i = 0 # set up a i for the enumeration of the passengers collection
