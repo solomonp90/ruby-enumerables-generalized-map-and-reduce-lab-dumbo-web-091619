@@ -25,23 +25,3 @@ end
 end
 sum
 end
-# if starting_point==nil||starting_point==0
-#   false
-# end
-# i+=1
-# end
-# true
-# end
-
-# def i_hear_a_sick_sound(passengers_sounds)
-#   i = 0 # set up a i for the enumeration of the passengers collection
-#   while i < passengers_sounds.length do # a loop for each passenger
-#     # Stop enumerating and return true if any passenger is
-#     # coughing or sneezing
-#     if (passengers_sounds[i] == "coughing" || passengers_sounds[i] == "sneezing")
-#       return true
-#     end
-#     i += 1
-#   end
-#   return false
-# end
